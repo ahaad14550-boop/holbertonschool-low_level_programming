@@ -1,1 +1,1 @@
-int _abs(int);
+int print_last_digit(int);
