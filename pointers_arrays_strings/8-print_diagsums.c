@@ -15,10 +15,10 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 	{
-		/* القطر الرئيسي: العنصر رقم 0، ثم 4، ثم 8 في مصفوفة 3*3 */
+		/* Calculate main diagonal sum */
 		sum1 += a[i * (size + 1)];
 
-		/* القطر الثانوي: العنصر رقم 2، ثم 4، ثم 6 في مصفوفة 3*3 */
+		/* Calculate secondary diagonal sum */
 		sum2 += a[(i + 1) * (size - 1)];
 	}
 
